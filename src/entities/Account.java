@@ -9,7 +9,7 @@ public class Account {
 	public Account(int number, String holder, double initialDeposit) {
 		this.number = number;
 		this.holder = holder;
-		this.balance = initialDeposit;
+		deposit(initialDeposit);
 	}
 	
 	public Account(int number, String holder) {
